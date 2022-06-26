@@ -31,13 +31,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  # s.source_files = 'OrionWebRTC/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'OrionWebRTC' => ['OrionWebRTC/Assets/*.png']
-  # }
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
