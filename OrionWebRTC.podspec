@@ -7,26 +7,13 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'OrionWebRTC'
-  s.version          = '0.0.1'
-  s.summary          = 'OrionWebRTC Framework.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  # s.description      = <<-DESC
-#TODO: Add long description of the pod here.
- #                      DESC
-
+  s.name             = 'OIWebRTC'
+  s.version          = '0.99.0'
+  s.summary          = 'OIWebRTC Framework.'
   s.homepage         = 'https://github.com/OrionInnovationTRTech/webRTC-iOS-Release'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'brtgmaden' => 'brtgmaden@hotmail.com' }
-  s.source            = { :git => 'https://github.com/OrionInnovationTRTech/webRTC-iOS-Release.git', :tag => '0.0.1'}
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source            = { :git => 'https://github.com/OrionInnovationTRTech/webRTC-iOS-Release.git', :tag => '0.99.0'}
   s.vendored_frameworks = 'WebRTC.xcframework'
 
   s.ios.deployment_target = '10.0'
