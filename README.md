@@ -13,7 +13,7 @@ Release framework of WebRTC iOS Project
 
 ### CocoaPods
 
-[CocoaPods](https://cocoapods.org/pods/OIWebRTC) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate *Kandy Link iOS SDK* into your Xcode project using CocoaPods, specify it in your `Podfile`:
+[CocoaPods](https://cocoapods.org/pods/OIWebRTC) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate *OIWebRTC* into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 ...
