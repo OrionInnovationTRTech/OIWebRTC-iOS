@@ -27,7 +27,7 @@ end
 ```
 #### Swift Package Manager
 1. File > Swift Packages > Add Package Dependency
-2. Add https://github.com/OrionInnovationTRTech/webRTC-iOS-Release.git
+2. Add https://github.com/OrionInnovationTRTech/OIWebRTC-iOS
 3. Select "Branch" with "main"
 ### Manual
 
