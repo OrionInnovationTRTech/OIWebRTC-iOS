@@ -1,8 +1,13 @@
+<p align="center">
+  <img src="OIWebRTCLogo.png?raw=true" />
+</p>
+
+
 # WebRTC Public Release
 Release framework of WebRTC iOS Project
 
 
-# WebRTC 
+# OIWebRTC 
 
 <p>
     <img alt="Cocoapods platforms" src="https://img.shields.io/cocoapods/p/OIWebRTC">
