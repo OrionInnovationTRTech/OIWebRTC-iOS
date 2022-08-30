@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RELEASE_NOTE="Test"
-
+TAG=${TAG}
 
 git status
 if [ "$(git status --porcelain)" ]; then
@@ -10,9 +10,9 @@ if [ "$(git status --porcelain)" ]; then
     read commitMessage
     git add .
     git commit -m "$commitMessage"
-    git tag v3.04 -m "$RELEASE_NOTE" || echo "the tag already exists"
-    git push origin v3.04
-    gh release create v3.04
+    git tag "$TAG" -m "$RELEASE_NOTE" || echo "the tag already exists"
+    git push origin "$TAG"
+    gh release create "$TAG"
 
     else
     git add .
