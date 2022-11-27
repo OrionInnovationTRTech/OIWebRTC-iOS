@@ -79,7 +79,7 @@ createGitHubRelease(){
     cp -rf "${REPO_DIR}/src/out/WebRTC.xcframework" $REPO_DIR
     git add .
     git commit -m "Version ${VERSION} released." || echo "No changes to commit"
-    git tag -a $VERSION -m "Version ${VERSION} Released" || printf "${Red} The tag is already exist !!! Nothing won't change ${Color_Off}"
+    git tag -a $POD_VERSION -m "Version ${VERSION} Released" || printf "${Red} The tag is already exist !!! Nothing won't change ${Color_Off}"
     git push
     git push origin --tags
     else
