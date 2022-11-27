@@ -25,7 +25,7 @@ Release framework of WebRTC iOS Project
 use_frameworks!
 
 target 'YOUR_TARGET_NAME' do
-    pod 'OIWebRTC', '~> 0.99.0'
+    pod 'OIWebRTC', '~> 0.105.0'
 end
 
 ...
