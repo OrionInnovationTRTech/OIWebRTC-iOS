@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OIWebRTC'
-  s.version          = '0.99.0'
+  s.version          = '0.105.0'
   s.summary          = 'OIWebRTC Framework.'
   s.homepage         = 'https://github.com/OrionInnovationTRTech/webRTC-iOS-Release'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'brtgmaden' => 'brtgmaden@hotmail.com' }
-  s.source            = { :git => 'https://github.com/OrionInnovationTRTech/webRTC-iOS-Release.git', :tag => '0.99.0'}
+  s.source            = { :git => 'https://github.com/OrionInnovationTRTech/webRTC-iOS-Release.git', :tag => '0.105.0'}
   s.vendored_frameworks = 'WebRTC.xcframework'
 
   s.ios.deployment_target = '10.0'
